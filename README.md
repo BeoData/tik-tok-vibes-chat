@@ -1,73 +1,36 @@
-# Welcome to your Lovable project
+ # Dobrodošli u vaš projekat
 
-## Project info
+## Podaci o projektu
 
-**URL**: https://lovable.dev/projects/68ee84c1-7492-4895-9dc6-599944769761
+**URL**: https://github.com/BeoData/tik-tok-vibes-chat/
 
-## How can I edit this code?
+## Kako mogu da editujem ovaj kod?
 
-There are several ways of editing your application.
+Postoji nekoliko načina da izmenite aplikaciju.
 
-**Use Lovable**
+**Korišćenje Beodata platforme**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/68ee84c1-7492-4895-9dc6-599944769761) and start prompting.
+Jednostavno posetite [Beodata projekat](https://github.com/BeoData/tik-tok-vibes-chat/) i počnite sa upisivanjem promena.
 
-Changes made via Lovable will be committed automatically to this repo.
+Promene koje napravite putem Beodata platforme biće automatski sačuvane u repozitorijumu.
 
-**Use your preferred IDE**
+**Korišćenje IDE-a po vašem izboru**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Ako želite da radite lokalno koristeći svoj IDE, možete klonirati repozitorijum i postaviti promene. Promene koje postavite biće takođe odražene u Beodata-u.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Jedini zahtev je da imate instalirane Node.js & npm - [instalirajte pomoću nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+Pratite sledeće korake:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Korak 1: Klonirajte repozitorijum pomoću Git URL-a projekta.
+git clone https://github.com/BeoData/tik-tok-vibes-chat/
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Korak 2: Idite u direktorijum projekta.
+cd tik-tok-vibes-chat
 
-# Step 3: Install the necessary dependencies.
+# Korak 3: Instalirajte potrebne zavisnosti.
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Korak 4: Pokrenite razvojni server sa automatskim reload-om i trenutnim pregledom.
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/68ee84c1-7492-4895-9dc6-599944769761) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
