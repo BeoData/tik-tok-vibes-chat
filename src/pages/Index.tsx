@@ -1,12 +1,16 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import VideoFeed from '@/components/video/VideoFeed';
+import Navbar from '@/components/layout/Navbar';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="bg-black min-h-screen">
+      <div className="fixed top-0 left-0 right-0 z-10 p-4 flex justify-between items-center">
+        <h1 className="text-white font-bold text-xl">For You</h1>
       </div>
+      <VideoFeed />
+      <Navbar />
     </div>
   );
 };
